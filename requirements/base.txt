@@ -1,1 +1,1 @@
-pootle
+git+https://github.com/phlax/pootle@cleanup#egg=Pootle
