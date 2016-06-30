@@ -39,5 +39,5 @@ def _load_fixtures(*modules):
                 yield name
 
 pytest_plugins = tuple(
-    ['pytest_pootle.plugin']
+    ['pytest_pootle']
     + [p for p in _load_fixtures(fixtures, )])
